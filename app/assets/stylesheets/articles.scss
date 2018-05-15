@@ -19,21 +19,10 @@
   }
 }
 
-.container {
-  width: 50vw;
-  margin-top: 50px;
-  h2 {
-    color: #3263a3;
-    &:hover {
-      color: #1d3a60;
-    }
-  }
-  p {
-    color: grey;
-  }
-}
-
-i {
+a {
   font-size: 20px;
-  color: #3263a3;
+  color: #337ab7;
+  &:hover{
+    text-decoration: none;
+  }
 }
