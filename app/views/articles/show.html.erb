@@ -1,0 +1,8 @@
+<h1><%= @article.title %><%= link_to edit_article_path do %>
+  <i class="fas fa-pencil-alt"></i>
+<% end %><%= link_to article_path(@article), method: :delete, data: { confirm: 'Are you sure?' } do %>
+  <i class="far fa-trash-alt"></i>
+<% end %></h1>
+<hr>
+<br>
+<p><%= @article.content %></p>
